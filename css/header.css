@@ -34,6 +34,9 @@
 .contacts a:focus {
   color: #404bbf;
 }
+.top {
+  border-bottom: 1px solid #e7e9fc;
+}
 .topbar {
   display: flex;
   width: 1158px;
