@@ -34,3 +34,30 @@
 .contacts a:focus {
   color: #404bbf;
 }
+.topbar {
+  display: flex;
+  width: 1158px;
+  max-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 141px;
+}
+.logo {
+  margin: 24px 0 24px 15px;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 40px;
+  padding: 0;
+  margin: 24px 340px 24px 76px;
+}
+.contacts-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 40px;
+  padding: 0;
+  margin: 24px 15px 24px 0;
+}
