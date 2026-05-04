@@ -1,0 +1,20 @@
+.team h2 {
+  text-align: center;
+}
+.team .headings {
+  text-align: center;
+}
+.team p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+.team {
+  background-color: #f4f4fd;
+}
+.team li {
+  background-color: #ffffff;
+}
