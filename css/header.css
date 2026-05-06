@@ -37,14 +37,7 @@
 .top {
   border-bottom: 1px solid #e7e9fc;
 }
-.topbar {
-  display: flex;
-  width: 1158px;
-  max-width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 141px;
-}
+
 .logo {
   margin: 24px 0 24px 15px;
 }

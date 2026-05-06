@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="./css/main.css" />
     <title>Main page Webstudio</title>
   </head>
-  <body class="container">
+  <body>
     <header id="header" class="top">
-      <div class="topbar">
+      <div class="container">
         <a href="./index.html" class="logo"
           ><span class="logo-part">Web</span>Studio</a
         >
@@ -49,12 +49,19 @@
       </div>
     </header>
     <main>
+      <!--#region hero-->
       <section id="hero" class="hero">
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button" id="order-button" class="order-button">
-          Order Service
-        </button>
+        <div class="container container-hero">
+          <!-- <div class=""> -->
+          <h1 class="hero">Effective Solutions for Your Business</h1>
+          <button type="button" id="order-button" class="order-button">
+            <div class="text-button">Order Service</div>
+          </button>
+          <!-- </div> -->
+        </div>
       </section>
+      <!-- #endregion -->
+      <!--#region features-->
       <section id="features" class="features">
         <h2 class="general-headings">Our features</h2>
         <ul>
@@ -88,6 +95,8 @@
           </li>
         </ul>
       </section>
+      <!-- #endregion -->
+      <!--#region team-->
       <section id="team" class="team">
         <h2 class="general-headings">Our Team</h2>
         <ul>
@@ -113,6 +122,7 @@
           </li>
         </ul>
       </section>
+      <!-- #endregion -->
       <!-- #region portfolio -->
       <section id="portfolio" class="portfolio">
         <h2 class="general-headings">Our Portfolio</h2>

@@ -1,12 +1,23 @@
-*,
+/* *,
 :after :before {
   box-sizing: border-box;
-}
+} */
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #2e2f42;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .logo-part {
   color: #4d5ae5;
 }
@@ -32,8 +43,10 @@ ul {
   list-style: none;
 }
 .container {
-  width: 1440px;
+  display: flex;
+  width: 1158px;
   max-width: 100%;
-  margin: 0;
-  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 141px;
 }
