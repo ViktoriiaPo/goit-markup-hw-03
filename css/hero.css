@@ -2,12 +2,16 @@
   font-size: 56px;
   font-weight: 700;
   font-style: normal;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   text-align: center;
   color: #ffffff;
   background-color: #2e2f42;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
+}
+.hero-heading {
+  max-width: 496px;
 }
 .order-button {
   font-size: 16px;
@@ -23,7 +27,8 @@
   border-radius: 4px;
   border: 0;
   display: block;
-  /* margin: 168px 494.5 0; */
+  /* margin: 48px 163.5px; */
+  /* padding: 48px 163.5px; */
   /* margin-left: auto;
   margin-right: auto; */
 }
@@ -36,12 +41,8 @@
 }
 
 .container-hero {
-  display: block;
-  width: 1158px;
-  max-width: 100%;
-  /* justify-content: space-between;
-  align-items: center; */
-  padding: 188px 0;
-  margin: 0 141px;
-  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
