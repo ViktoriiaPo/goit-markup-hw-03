@@ -1,5 +1,6 @@
-.team h2 {
+.team .general-headings {
   text-align: center;
+  margin-bottom: 72px;
 }
 .team .headings {
   text-align: center;
@@ -17,4 +18,14 @@
 }
 .team li {
   background-color: #ffffff;
+}
+.team-list-item {
+  width: calc((100% - 24px * 3) / 4);
+  border-radius: 0 0 4px 4px;
+}
+.cards {
+  padding: 32px 16px;
+}
+.cards .headings {
+  margin-bottom: 8px;
 }

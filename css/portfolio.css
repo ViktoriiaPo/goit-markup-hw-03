@@ -1,4 +1,4 @@
-.portfolio h2 {
+.portfolio .general-headings {
   text-align: center;
 }
 .portfolio p {
@@ -7,4 +7,26 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.portfolio .container {
+  flex-wrap: wrap;
+}
+.portfolio-tabs {
+  width: calc((100% - 24px * 2) / 3);
+}
+.portfolio .general-headings {
+  margin-bottom: 50px;
+}
+.portfolio-cards {
+  padding: 32px 0 0 16px;
+  border-bottom: solid 1px #e7e9fc;
+  border-left: solid 1px #e7e9fc;
+  border-right: solid 1px #e7e9fc;
+}
+.portfolio .container {
+  row-gap: 48px;
+  column-gap: 24px;
+}
+.portfolio-cards .headings {
+  margin-bottom: 8px;
 }
