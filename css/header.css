@@ -41,14 +41,12 @@
 .navigation {
   display: flex;
   gap: 40px;
-  padding: 0;
-  margin: 24px 340px 24px 76px;
+  padding: 24px 340px 24px 76px;
 }
 .contacts-list {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 40px;
-  padding: 0;
-  margin: 24px 0 24px 0;
+  padding: 24px 0 24px 0;
 }

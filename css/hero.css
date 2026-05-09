@@ -8,10 +8,14 @@
   background-color: #2e2f42;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  margin-bottom: 48px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-heading {
   max-width: 496px;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 .order-button {
   font-size: 16px;
@@ -42,7 +46,9 @@
 
 .container-hero {
   display: flex;
+  align-items: center;
   flex-direction: column;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  gap: 48px;
+  /* padding-top: 188px;
+  padding-bottom: 188px; */
 }

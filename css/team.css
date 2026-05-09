@@ -1,6 +1,8 @@
 .team .general-headings {
-  text-align: center;
+  display: flex;
   margin-bottom: 72px;
+  width: 1158px;
+  justify-content: center;
 }
 .team .headings {
   text-align: center;
@@ -28,4 +30,13 @@
 }
 .cards .headings {
   margin-bottom: 8px;
+}
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-people {
+  display: flex;
+  width: 1158px;
+  justify-content: space-between;
 }
