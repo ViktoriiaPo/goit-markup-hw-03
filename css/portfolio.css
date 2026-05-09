@@ -1,6 +1,8 @@
 .portfolio .general-headings {
   text-align: center;
-  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 72px;
 }
 .portfolio p {
   font-weight: 400;
@@ -14,9 +16,6 @@
 }
 .portfolio-tabs {
   width: calc((100% - 24px * 2) / 3);
-}
-.portfolio .general-headings {
-  margin-bottom: 72px;
 }
 .portfolio-cards {
   /* padding: 32px 0 32px 16px; */
