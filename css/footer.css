@@ -2,7 +2,7 @@
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.bottom a {
+.footer-logo {
   font-family: "Raleway", serif;
   font-weight: 700;
   font-size: 18px;
@@ -11,7 +11,7 @@
   text-transform: uppercase;
   color: #f4f4fd;
 }
-.bottom p {
+.footer-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
